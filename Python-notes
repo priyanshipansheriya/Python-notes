@@ -1,1 +1,49 @@
+#Swapping two numbers
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
+
+print("Before swapping:a=",a,"b=",b)
+
+a=a+b
+b=a-b
+a=a-b
+
+print("Aftre swapping: a=",a,"b=",b)
+_____________________
+#Prime number
+n = int(input("Enter a number: "))
+if n > 1:
+    for i in range(2, n):
+        if n % i == 0:
+            print("Not a prime number")
+            break
+    else:
+        print("Prime number")
+else:
+    print("Not a prime number")
+_______________________
+#Lambda Function
+bigger = lambda a, b: a if a > b else b
+ x = int(input("Enter first number: "))
+ y = int(input("Enter second number: "))
+ print("Bigger number is:", bigger(x, y)
+______________________
+#Dictionary Function
+ student = {
+    "name": "Amit",
+    "roll": 101,
+    "marks": 85
+ }
+ print("Dictionary:", student)
+ print("Name:", student["name"])
+ print("Keys:", student.keys())
+ print("Values:", student.values())
+ print("Items:", student.items())
+ student["grade"] = "A"
+ print("After adding grade:", student)
+ student["marks"] = 90
+ print("After updating marks:", student)
+ del student["roll"]
+ print("After deleting roll:", student
+
 
