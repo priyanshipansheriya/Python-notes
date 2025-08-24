@@ -9,7 +9,7 @@ b=a-b
 a=a-b
 
 print("Aftre swapping: a=",a,"b=",b)
-_____________________
+________________________________________________________________
 #Prime number
 n = int(input("Enter a number: "))
 if n > 1:
@@ -21,13 +21,13 @@ if n > 1:
         print("Prime number")
 else:
     print("Not a prime number")
-_______________________
+__________________________________________________________________
 #Lambda Function
 bigger = lambda a, b: a if a > b else b
  x = int(input("Enter first number: "))
  y = int(input("Enter second number: "))
  print("Bigger number is:", bigger(x, y)
-______________________
+_________________________________________________________________
 #Dictionary Function
  student = {
     "name": "Amit",
